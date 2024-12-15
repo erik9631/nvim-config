@@ -152,11 +152,11 @@ return {
         end
     },
 
-    -- Run menu like in jetbrains
+    --[[ Run menu like in jetbrains
     {
         dir = "plugins.local.project-menu",
         config = function()
             require("plugins.local.project-menu").setup()
         end
-    },
+    },]]
 }
